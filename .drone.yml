@@ -23,7 +23,7 @@ steps:
         from_secret: minio_secret_key
     pull: always
     settings:
-      restore: true
+      restore: false
       bucket:
         from_secret: minio_bucket
       region: us-east-1
